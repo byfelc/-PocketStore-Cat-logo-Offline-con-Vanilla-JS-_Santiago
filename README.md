@@ -1,4 +1,4 @@
-# 🛍️ PocketStore – Catálogo Offline con Vanilla JS
+#  PocketStore – Catálogo Offline con Vanilla JS
 
 **Autor:** Santiago Medellin Salcedo
 **Grupo:** IDGS101N
@@ -130,7 +130,10 @@ python -m http.server 8000
 ```
 
 Después abrir `http://localhost:8000` en el navegador.
-
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
 ## 8. Conclusiones
 
 El proyecto permitió comprender cómo trabajan en conjunto el App Shell, el Service Worker y la Cache API para ofrecer una experiencia rápida y disponible sin conexión. Elegir la estrategia de caché adecuada para cada tipo de recurso (Cache First para lo estático y Network First para los datos) permite que la aplicación se mantenga actualizada cuando hay internet y siga siendo útil cuando no la hay.
